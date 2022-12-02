@@ -16,7 +16,8 @@ function sendMessage() {
 }
 
 function checkSpam(str) {
-    return str;
+   return str.replace(/xxx|viagra/ig, "***")
+
 }
 
 function showMessage(str) {
